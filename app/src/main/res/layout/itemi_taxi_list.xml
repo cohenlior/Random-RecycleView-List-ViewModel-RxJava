@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_divider"
+    android:paddingBottom="@dimen/activity_margin"
+    android:paddingEnd="@dimen/activity_margin"
+    android:paddingLeft="@dimen/activity_margin"
+    android:paddingRight="@dimen/activity_margin"
+    android:paddingStart="@dimen/activity_margin"
+    android:paddingTop="@dimen/activity_margin">
+
+    <ImageView
+        android:layout_width="@dimen/imageView_margin"
+        android:layout_height="@dimen/imageView_margin"
+        android:src="@android:color/holo_blue_dark"
+        android:contentDescription="@string/content_description_station_name" />
+
+    <TextView
+        android:id="@+id/taxi_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        android:paddingEnd="@dimen/activity_margin"
+        android:paddingStart="@dimen/activity_margin"
+        android:textSize="20sp"
+        tools:text="@tools:sample/cities" />
+
+    <TextView
+        android:id="@+id/arrival_time"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="end"
+        android:textSize="20sp"
+        tools:text="@tools:sample/date/hhmm" />
+
+</LinearLayout>

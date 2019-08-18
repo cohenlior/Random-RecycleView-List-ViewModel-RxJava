@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">E hailing app</string>
+    <string name="castle">Castle</string>
+    <string name="shekem">Shekem</string>
+    <string name="habima">Habima</string>
+    <string name="gordon">Gordon</string>
+    <string name="azrieli">Azrieli</string>
+    <string name="hadera">Hadera</string>
+    <string name="content_description_station_name">Station name</string>
+</resources>
